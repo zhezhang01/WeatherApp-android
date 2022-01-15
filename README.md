@@ -1,7 +1,5 @@
 # WeatherApp-android
 A weather app based on android development
-App icon
-![image](https://user-images.githubusercontent.com/89323566/149602990-9e40573f-ba0d-4d17-a8f7-2fa691dcce5e.png)
 Main page
 ![image](https://user-images.githubusercontent.com/89323566/149603157-828af46b-2cea-4e76-b139-fbc0c73b421a.png)
 Weather detail#1
