@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".AllCityApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_22"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Dark">
+        <activity
+            android:name=".FavoriteActivity"
+            android:exported="true"
+            android:label="WeatherApp" />
+        <activity
+            android:name=".SearchActivity"
+            android:exported="true" />
+        <activity
+            android:name=".TabbedActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="WeatherApp" />
+        <activity
+            android:name=".InitActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
